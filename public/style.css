@@ -1,0 +1,354 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bar .search{
+    padding: 20px;
+}
+
+.bar section{
+    border: 3px solid #ff6a00;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 900px;
+    padding: 5px;
+    border-radius: 25px;
+    font-size: 1.3em;
+}
+.bar select{
+    border: none !important;
+    outline: none;
+    cursor: pointer;
+}
+.bar option{
+    border: none;
+}
+
+.bar p{
+    margin: 0;
+}
+.bar input{
+    border: none;
+}
+.bar .search .searchdiv{
+    display: flex;
+   border-left: 3px solid #FF4F00 ;
+  padding-left: 10px;
+    
+    
+}
+.bar .search .searchdiv p{
+    margin-left: 10px;
+    
+}
+i{
+    font-weight: lighter !important;
+    
+}
+.bar nav{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 130px;
+    padding-top: 20px;
+    
+    padding-right: 130px;
+}
+.bar .icons{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.bar .icons i{
+    font-size: 3.5em;
+}
+.bar .icons .ic1{
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.bar .icons .ic2{
+    padding: 30px;
+}
+.bar .icons .ic3{
+    padding: 30px;
+}
+.bar .icons .ic4{
+    padding: 30px;
+}
+.bar1{
+    padding-left: 130px;
+    
+    padding-right: 130px;
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+.bar1 .barp2{
+    padding-left: 260px;
+
+}
+.bar1 .barp1 ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+
+}
+.bar1 .barp2 ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: right;
+}
+.bar1 .barp2 ul li{
+    padding: 10px;
+    font-size: 1.1em;
+}
+.bar1 .barp1 ul li{
+    padding: 10px;
+    font-size: 1.1em;
+    
+}
+.bar2 p{
+    text-align: center;
+    font-size: 1.2em;
+    background-color:rgb(198, 236, 231);
+    padding: 6px;
+}
+.bar2 p a{
+    text-decoration: none;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.body{
+    background-color: #f8f9fa;
+    padding-left: 130px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 130px;
+}
+.body .bodyp1{
+    background-color: white;
+    padding:20px;
+}
+.body .bodyp1 ul{
+    list-style-type: none;
+}
+.body .bodyp1 .btn button{
+    border: none;
+    background: #FF4F00 ;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.body .bodyp2 .text {
+  background-image: url(https://img.alicdn.com/tfs/TB1RrnvyuT2gK0jSZFvXXXnFXXa-800-375.png);
+  
+  color: white;
+  padding: 20px;
+}
+.body .bodyp2 .text .num{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.body .bodyp2 .text .num .num2{
+    padding-left: 160px;
+}
+.body .bodyp2 .text  button {
+    color: white;
+    background-color: transparent ;
+    border: 2px solid white;
+    border-radius: 40px;
+    padding: 5px;
+    font-size: 1.2em;
+}
+.body .bodyp2 .inp{
+    background-color: white;
+    padding: 10px;
+    border: 10px solid lightgray;
+}
+.body .bodyp2 .inp .header{
+    font-size: 3.5em;
+    font-weight: bold;
+}
+.body .bodyp2 .inp input{
+    height: 70px;
+    width: 350px;
+    color: lightgray;
+    font-size: 1.5em;
+    border: 2px solid lightgray;
+    padding: 10px;
+    
+}
+.body .bodyp2 .inp select{
+    height: 70px;
+    width: 350px;
+
+    font-size: 1.5em;
+    border: 2px solid lightgray;
+    padding: 10px;
+}
+.body .bodyp2 .inp button{
+    color: white;
+    background-color: #FF4F00 ;
+    border: 2px solid #FF4F00;
+    border-radius: 40px;
+    padding: 5px;
+    font-size: 1.2em;
+}
+.bodyp5 .flags span{
+    padding: 35px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.bodyp5 .flags{
+    display: flex;
+    flex-wrap: wrap;
+}
+.bodyp5 .flags span B:hover{
+      color: #FF4F00 ;
+}
+.footer{
+    background-color: #313D52;
+    padding-left: 130px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 130px;
+}
+.footer .foot1{
+    text-align: center;
+    padding: 40px;
+}
+.footer .foot1 p{
+    color: white;
+}
+.footer .foot1 input{
+    height: 70px;
+    width: 450px;
+    color: gray;
+    font-size: 1.5em;
+    border: 1px solid  whitesmoke;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: rgba(0, 0,0, 0.6);
+}
+.footer .foot1 button{
+    background-color: transparent;
+    font-size: 1.5em;
+    border: 1px solid  whitesmoke;
+    padding: 10px 20px;
+    border-radius: 4px;
+    color: white;
+    height: 70px;
+    
+}
+.footer .foot2{
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 4px solid #333;
+    
+    
+}
+.footer .foot2 ul{
+    color: white;
+    list-style-type: none;
+    padding-left: 70px;
+}
+.footp3{
+    text-align: center;
+    color: white;
+}
+.footp3 .icons{
+    font-size: 1.5em;
+}
+.bodyp6 .cards{
+      display: flex;
+      flex-wrap: wrap;
+      
+}
+
+.bodyp6{
+    background-color: white;
+    padding: 20px;
+}
+.bodyp6 .cards .card1{
+    padding: 20px;
+}
+.bodyp6 .cards .card2{
+    padding: 20px;
+}
+.bodyp6 .cards .card3{
+    padding: 20px;
+}
+.bodyp7 .cards {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.para{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    background-color: white;
+
+}
+.p1{
+    padding: 20px;
+}
+.p2{
+    padding: 20px;
+}
+.p3{
+    padding: 20px;
+}
+.p4{
+    padding: 20px;
+}
+.bodyp1 ul li:hover{
+    color: #FF4F00 ;
+    
+}
+.bodyp8 .cards{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    padding: 10px;
+}
+.bodyp8 .cards button{
+    color: white;
+    background-color: #FF4F00 ;
+    border: 2px solid #FF4F00;
+    border-radius: 40px;
+    padding: 5px;
+    font-size: 1.2em;
+}
+.bodyp8 .cards .c1{
+    padding: 15px 70px;
+}
+.bodyp8 .cards .c2{
+    padding: 15px 70px;
+}
